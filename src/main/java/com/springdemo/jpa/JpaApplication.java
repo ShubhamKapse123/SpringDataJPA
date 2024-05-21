@@ -1,13 +1,13 @@
-package com.springboot.springdatajpa;
+package com.springdemo.jpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringdatajpaApplication {
+public class JpaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringdatajpaApplication.class, args);
+		SpringApplication.run(JpaApplication.class, args);
 	}
 
 }
